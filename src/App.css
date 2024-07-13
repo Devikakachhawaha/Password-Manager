@@ -1,0 +1,32 @@
+/* body{
+    background-color: rgb(218 243 233);
+} */
+/* .passwords{
+    margin-bottom: 80px;
+} */
+/* .tablecontainer{
+    max-height: 40vh;
+    overflow-y: scroll;
+
+} */
+
+/* Make the entire viewport height */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .content {
+    flex: 1; /* This will take up the remaining space */
+  }
+  
+  footer {
+    /* No need for extra styling for positioning */
+  }
+  
